@@ -1,0 +1,3 @@
+instalar unicamente inkscape 0.48.5-1
+ir a C:\ProgramFiles\Inkscape\share\extensions
+copiar el contenido de la carpeta src, no la carpeta src en si.
