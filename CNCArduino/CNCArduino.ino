@@ -8,10 +8,10 @@
 */
 
 const int penZUp = 60;                 // Angle servomoteur, crayon relevé
-const int penZDown = 20;                            // Angle servomoteur, crayon baissé
+const int penZDown = 22;                            // Angle servomoteur, crayon baissé
 const int penServoPin = 10;              // Pin sur lequel est relié le servomoteur
-const int stepsPerRevolution = 20;              // Valeur par défaut
-const int vitesseDeplacement = 250;             // Vitesse de déplacement des axes X et Y
+const int stepsPerRevolution = 260;              // Valeur par défaut
+const int vitesseDeplacement = 20;             // Vitesse de déplacement des axes X et Y
 
 Servo penServo;                     // Objet pour actionner le servomoteur
 
