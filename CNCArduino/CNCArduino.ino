@@ -7,19 +7,19 @@
    PARAMETRES DE CONFIGURATION
 */
 
-const int penZUp = 60;                 // Angle servomoteur, crayon relevé
-const int penZDown = 22;                            // Angle servomoteur, crayon baissé
-const int penServoPin = 10;              // Pin sur lequel est relié le servomoteur
-const int stepsPerRevolution = 260;              // Valeur par défaut
-const int vitesseDeplacement = 20;             // Vitesse de déplacement des axes X et Y
+const int penZUp = 70;                 // Angle servomoteur, crayon relevï¿½
+const int penZDown = 0;                            // Angle servomoteur, crayon baissï¿½
+const int penServoPin = 10;              // Pin sur lequel est reliï¿½ le servomoteur
+const int stepsPerRevolution = 260;              // Valeur par dï¿½faut
+const int vitesseDeplacement = 20;             // Vitesse de dï¿½placement des axes X et Y
 
 Servo penServo;                     // Objet pour actionner le servomoteur
 
-// Initialisation des moteurs pas à pas pilotés à l'aide d'un pont H L293D
+// Initialisation des moteurs pas ï¿½ pas pilotï¿½s ï¿½ l'aide d'un pont H L293D
 Stepper myStepperX(stepsPerRevolution, 8,9,11,12); 
 Stepper myStepperY(stepsPerRevolution, 2,3,4,5);
 
-// Calibration, nombre de pas par millimètre
+// Calibration, nombre de pas par millimï¿½tre
 float StepsPerMillimeterX = 6.0;
 float StepsPerMillimeterY = 6.0;
 
